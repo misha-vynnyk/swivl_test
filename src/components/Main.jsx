@@ -175,29 +175,29 @@ const Main = () => {
           }}
         >
           <Wrapper>
-            <UserPhoto src="public/images/avatar.png" />
+            <UserPhoto src="images/avatar.png" />
             <UserInfo>
               <h2>Benjamin Clementine</h2>
               <p>@benclementine</p>
               <EditLink href="/">
-                <img src="public/icons/edit_icon.svg" alt="Edit icon" />
+                <img src="icons/edit_icon.svg" alt="Edit icon" />
                 Edit Profile
               </EditLink>
             </UserInfo>
             <UserButton onClick={toggleMenu} $isOpen={isOpen}>
               <img
-                src="public/icons/a_icon_3_dots_menu.svg"
+                src="icons/a_icon_3_dots_menu.svg"
                 alt="Menu reports"
               />
             </UserButton>
             {isOpen && (
               <ReportMenu ref={menuRef}>
                 <a href="#">
-                  <img src="public/icons/a_icon_report.svg" alt="Report" />
+                  <img src="icons/a_icon_report.svg" alt="Report" />
                   Report User
                 </a>
                 <a href="#">
-                  <img src="public/icons/a_icon_delete.svg" alt="Block" />
+                  <img src="icons/a_icon_delete.svg" alt="Block" />
                   Block User
                 </a>
               </ReportMenu>
@@ -254,7 +254,7 @@ const Main = () => {
                         ) : (
                           <>
                             <img
-                              src="public/icons/a_icon_link_copy.svg"
+                              src="icons/a_icon_link_copy.svg"
                               alt="Link copy"
                             />
                             <a href="#">Shared {post.sharedWeblink}</a>
@@ -268,21 +268,21 @@ const Main = () => {
                   <div>
                     <PostInfo>
                       <p>
-                        <img src="public/icons/Oval.svg" alt="User Photo" />
+                        <img src="icons/Oval.svg" alt="User Photo" />
                         {post.whoPublished}
                       </p>
                       {isPublic ? (
                         <div>
                           <p>
                             <img
-                              src="public/icons/a_icon_view.svg"
+                              src="icons/a_icon_view.svg"
                               alt="View"
                             />
                             {post.likes}
                           </p>
                           <p>
                             <img
-                              src="public/icons/a_icon_like.svg"
+                              src="icons/a_icon_like.svg"
                               alt="Like"
                             />
                             {post.plays}

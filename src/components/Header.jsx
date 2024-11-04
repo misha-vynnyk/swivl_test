@@ -29,17 +29,17 @@ const Header = () => {
       <Container>
         <Navigation role="navigation" aria-label="Main navigation">
           <Logo href="/">
-            <img src="public/logo.svg" alt="Logo" />
+            <img src="logo.svg" alt="Logo" />
           </Logo>
           <HeaderMenu>
             <UserName>Arthur Wood</UserName>
-            <UserAvatar src="public/images/Rectangle Copy 5@2x.png" />
-            <MenuOpener src="public/icons/a_icon_arrow.svg" />
+            <UserAvatar src="images/Rectangle Copy 5@2x.png" />
+            <MenuOpener src="icons/a_icon_arrow.svg" />
             <HeaderAction>
               <li>
                 <a href="#" aria-label="View Notifications">
                   <img
-                    src="public/icons/notifications.svg"
+                    src="icons/notifications.svg"
                     alt="Notifications"
                     width="24"
                     height="24"
@@ -49,7 +49,7 @@ const Header = () => {
               <li>
                 <a href="#" aria-label="Share Recap">
                   <img
-                    src="public/icons/share_recap.svg"
+                    src="icons/share_recap.svg"
                     alt="Share Recap"
                     width="24"
                     height="24"
@@ -59,7 +59,7 @@ const Header = () => {
               <li>
                 <a href="#" aria-label="Settings">
                   <img
-                    src="public/icons/medium.svg"
+                    src="icons/medium.svg"
                     alt="Settings"
                     width="24"
                     height="24"

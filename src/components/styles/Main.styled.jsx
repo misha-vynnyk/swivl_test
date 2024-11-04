@@ -23,7 +23,7 @@ export const StyledMain = styled.main`
 
 export const ActionButton = styled.button`
   position: absolute;
-  background-image: url(./public/icons/action_button.svg);
+  background-image: url(icons/action_button.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
