@@ -1,0 +1,24 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<g opacity="0.000100" style="mix-blend-mode:normal">
+		<rect id="Mask" width="20.000000" height="20.000000" fill="#ECF1F8" fill-opacity="1.000000"/>
+	</g>
+	<mask id="mask0_300" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="20.000000" height="20.000000">
+		<g style="mix-blend-mode:normal">
+			<rect id="Mask" width="20.000000" height="20.000000" fill="#ECF1F8" fill-opacity="1.000000"/>
+		</g>
+	</mask>
+	<g mask="url(#mask0_300)">
+		<g opacity="0.000100" style="mix-blend-mode:normal">
+			<rect id="Rectangle 3 Copy" width="20.000000" height="20.000000" fill="#C3CADF" fill-opacity="1.000000"/>
+		</g>
+		<path id="Rectangle" d="" fill="#3E4056" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="Rectangle" d="M4 17C2.89 17 2 16.1 2 15L2 3C2 1.89 2.89 1 4 1L14 1C15.1 1 16 1.89 16 3L16 4" stroke="#3E4056" stroke-opacity="1.000000" stroke-width="2.000000"/>
+		<rect id="Rectangle 2" x="5.000000" y="4.000000" rx="1.000000" width="8.000000" height="2.000000" fill="#3E4056" fill-opacity="1.000000"/>
+		<path id="Rectangle 2 Copy" d="M6 8L10 8L8 10L6 10C5.44 10 5 9.55 5 9C5 8.44 5.44 8 6 8Z" fill="#3E4056" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Combined Shape" d="M16.7216 6.92761L19.55 9.75604C20.3311 10.5371 20.3311 11.8034 19.55 12.5845L12.6063 19.5282C12.524 19.6105 12.4155 19.6615 12.2996 19.6724L8.58459 20.0219C7.32458 20.1405 6.27271 19.0737 6.40894 17.8154L6.8031 14.1738C6.81543 14.0605 6.86609 13.9547 6.94666 13.8741L13.8932 6.92761C14.6742 6.14656 15.9406 6.14656 16.7216 6.92761ZM17.4287 10.4632L16.0145 9.04893C15.6239 8.6584 14.9908 8.6584 14.6002 9.04893L8.94397 14.7053L8.53076 16.7701C8.39062 17.4699 9.00769 18.0869 9.70752 17.9469L11.7723 17.5337L15.3074 13.9987L12.479 11.1703L13.8932 9.75606L16.7216 12.5844L17.4287 11.8774C17.8192 11.4868 17.8192 10.8537 17.4287 10.4632Z" clip-rule="evenodd" fill="#3E4056" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
