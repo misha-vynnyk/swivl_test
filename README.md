@@ -14,3 +14,22 @@ This project utilizes the following technologies:
 - **Styled Components**: A library for writing CSS in JS, allowing for modular and reusable styles.
 - **HelmetProvider**: Manages changes to document head (meta-tags) in React applications.
 - **Framer Motion**: An animation library for React.
+
+Installation Instructions
+Step 1: Clone the Repository
+  First, clone the project repository to your local machine:
+  git clone https://github.com/misha-vynnyk/swivl_test.git
+
+Step 2: Navigate to the Project Directory
+  Navigate to the project directory and install the required dependencies using npm:
+  cd swivl_test
+
+Step 3: Install Dependencies
+  Install the required dependencies using npm:
+  npm install
+  or
+  yarn install
+
+Step 4: Start the Development Server
+  To run the project locally, use the following command:
+  npm run dev

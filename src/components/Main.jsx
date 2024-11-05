@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Container } from "./styles/Container.styled";
 import { ActionButton, StyledMain } from "./styles/Main.styled";
@@ -131,30 +131,11 @@ const AnimatedPost = motion(Post);
 const AnimatedPosts = motion(Posts);
 
 const Main = () => {
-  const [isPublic, setIsPublic] = useState(true);// Save the state of the privacy setting
-  const [isOpen, setIsOpen] = useState(false);// Save the state of the menu
-  const menuRef = useRef(null);// Create a reference to the menu
+  const [isPublic, setIsPublic] = useState(true); // Save the state of the privacy setting
+  const [isOpen, setIsOpen] = useState(false); // Save the state of the menu
 
-
-  const toggleMenu = () => setIsOpen((prevState) => !prevState);// Toggle the menu state
-  const togglePrivacy = () => setIsPublic((prevState) => !prevState);// Toggle the privacy setting
-
-
-  const handleClickOutside = (event) => {
-    if (
-      menuRef.current &&
-      !menuRef.current.contains(event.target)
-    ) {
-      setIsOpen(false);
-    }
-  };//Close the menu when clicking outside
-
-  useEffect(() => {
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);// Add an event listener to the document to close the menu when clicking outside
+  const toggleMenu = () => setIsOpen((prevState) => !prevState); // Toggle the menu state
+  const togglePrivacy = () => setIsPublic((prevState) => !prevState); // Toggle the privacy setting
 
   return (
     <Container>
@@ -191,7 +172,7 @@ const Main = () => {
               />
             </UserButton>
             {isOpen && (
-              <ReportMenu ref={menuRef}>
+              <ReportMenu>
                 <a href="#">
                   <img src="icons/a_icon_report.svg" alt="Report" />
                   Report User
